@@ -1,4 +1,4 @@
-﻿module Mavnn.Blog.TypeProvider 
+﻿module Owin.TypeProvider 
 open System       
 open System.Reflection             
 open Microsoft.FSharp.Core.CompilerServices
@@ -28,7 +28,7 @@ type OwinProvider (config : TypeProviderConfig) as this =
     let createTypes () =
         let myType = ProvidedTypeDefinition(asm, ns, "Enviroment", Some typeof<obj>)
 
-        let enviroment = getEnviroment "http://localhost:50000"
+        let enviroment = getEnviroment "http://localhost:54223"
         for pair in enviroment do
             let myProp = ProvidedProperty(pair.Key, pair.Value.GetType(),
                                             GetterCode = fun args -> let value = pair.Value

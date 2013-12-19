@@ -8,10 +8,10 @@
     <ProjectGuid>73c8a127-94e1-491d-8983-21ebfb2f9e14</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>MyFirstTypeProvider</RootNamespace>
-    <AssemblyName>MyFirstTypeProvider</AssemblyName>
+    <AssemblyName>OwinTypeProvider</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>MyFirstTypeProvider</Name>
+    <Name>OwinTypeProvider</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

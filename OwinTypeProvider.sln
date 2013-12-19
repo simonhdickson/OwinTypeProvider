@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyFirstTypeProvider", "MyFirstTypeProvider\MyFirstTypeProvider.fsproj", "{73C8A127-94E1-491D-8983-21EBFB2F9E14}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OwinTypeProvider", "OwinTypeProvider\OwinTypeProvider.fsproj", "{73C8A127-94E1-491D-8983-21EBFB2F9E14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
